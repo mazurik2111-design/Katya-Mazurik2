@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Мій чудесний сайт — Про автора</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Мій чудесний сайт</h1>
+      <nav aria-label="Головне меню">
+        <ul class="menu">
+          <li><a href="index.html">Головна</a></li>
+          <li><a class="active" href="about.html">Про автора</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <article class="card">
+      <h2>Привіт! Я —  Катя)</h2>
+      <p>
+        Кілька абзаців про себе: люблю грати онлайн ігри і читати, навчаюсь в айті, в майбутньому хочу побувати в Японії.
+        Це місце можна розширити досвідом, проєктами та планами.
+      </p>
+      <p>
+        Люблю працювати з веб-технологіями, експериментувати зі стилями та створювати чисті,
+        доступні інтерфейси.
+      </p>
+    </article>
+    <section class="card">
+      <h2> Я захоплююсь людьми які шарять в айті(веб-дизайні,дискретній математиці і в звичайній математиці)</h2>
+      <ol>
+        <li>HTML5 та семантична розмітка</li>
+        <li>CSS (flex, відступи, типографіка)</li>
+        <li>Базовий JavaScript</li>
+        <li>Фотографія та обробка зображень</li>
+        <li>Подорожі та ведення нотаток</li>
+      </ol>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Автор сайту:Катя</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

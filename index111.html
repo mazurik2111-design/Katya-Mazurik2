@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Мій чудесний сайт — Головна</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Мій чудесний сайт</h1>
+      <nav aria-label="Головне меню">
+        <ul class="menu">
+          <li><a class="active" href="index.html">Головна</a></li>
+          <li><a href="about.html">Про автора</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="intro card">
+      <img src="img/profile.jpg" alt="Аватар або ілюстрація сайту" class="thumb" />
+      <div>
+        <h2>Вітаю!</h2>
+        <p>
+          Це навчальний багатосторінковий сайт для відпрацювання HTML та CSS:
+          шапка з навігацією, основний вміст, підвал, списки та зображення.
+        </p>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Розділи сайту</h2>
+      <ul>
+        <li><strong>Головна</strong> — короткий опис і навігація.</li>
+        <li><strong>Про автора</strong> — кілька абзаців і список навичок.</li>
+        <li><strong>Контакти</strong> — способи зв’язку з посиланнями.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Автор сайту: Твоє ім’я</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

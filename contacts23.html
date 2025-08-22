@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Мій чудесний сайт — Контакти</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Мій чудесний сайт</h1>
+      <nav aria-label="Головне меню">
+        <ul class="menu">
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про автора</a></li>
+          <li><a class="active" href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="card">
+      <h2>Зв’язатися зі мною</h2>
+      <ul>
+        <li>Email: <a href="mailto:hvgujbcgn@example.com">you@example.com</a></li>
+        <li>Телефон: <a href="tel:+380000000000">+38 (000) 000-00-00</a></li>
+        <li>Telegram: <a href="https://t.me/yourhandle" target="_blank" rel="noopener">t.me/yourhandle</a></li>
+        <li>Instagram: <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener">@yourprofile</a></li>
+        <li>GitHub: <a href="https://github.com/mazurik2111-design" target="_blank" rel="noopener">github.com/yourname</a></li>
+      </ul>
+      <p>Вільно змінюй/доповнюй список способів зв’язку.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Автор сайту: Катя 2025 </p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
